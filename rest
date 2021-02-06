@@ -1,0 +1,22 @@
+GET http://localhost:3000/Groups/
+
+###
+
+GET http://localhost:3000/Students/
+
+###
+GET http://localhost:3000/Marks/2
+
+###
+
+POST http://localhost:3000/Groups
+Content-Type: application/json
+
+{
+    "group_name": "1КН-19б"
+}
+
+###
+
+ http://localhost:3000/Marks/1
+
